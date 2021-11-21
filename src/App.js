@@ -1,11 +1,33 @@
 import "./App.css";
 
+import NavBar from "./Components/Navigation/NavBar";
+import NavbarMobile from "./Components/Navigation/NavBarMobile";
+import FixedButton from "./Components/FixedButton/FixedButton";
+import Hero from "./Components/Hero/Hero";
+import LogoDiv from "./Components/LogoDiv/LogoDiv";
+import Experience from "./Components/Experiences/Experience";
+import Projects from "./Components/Projects/Projects";
+import Motivations from "./Components/Motivations/Motivations";
+import Footer from "./Components/Footer/Footer";
+
 function App() {
   return (
-    <div className='App'>
-      <h1 className='text-center text-3xl font-light text-gray-700'>
-        Hello World !
-      </h1>
+    <div className='App bg-darkestGray min-h-screen text-gray-200'>
+      <NavBar />
+      <NavbarMobile />
+
+      <FixedButton />
+
+      <Hero />
+      <LogoDiv />
+
+      <Experience />
+
+      <Projects />
+
+      <Motivations />
+
+      <Footer />
     </div>
   );
 }
