@@ -6,30 +6,27 @@ const projects = [
   {
     title: "WCS weather",
     year: "2021",
-    text: "possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea? possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "Projet livré il y a quelques semaines dans le cadre du cursus de la Wild Code School. L'objectif est de permettre aux étudiants•es de la W.C.S. de trouver des informations sur la qualité de l'air dans la ville de leur campus, parmi les 20 présents en Europe. Malheureusement, les seuils de sûreté préconisés par l'O.M.S. sont dépassés tous les jours, dans toutes les grandes villes européennes.",
     status: 0,
     url: "https://wcs-weather.netlify.app/",
   },
   {
     title: "Fripe Stories",
     year: "2021",
-    text: " possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea? possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "Side project à l'étude. Fripe Stories permet aux boutiques professionnelles de vêtements de seconde-main d'automatiser une partie de leur social marketing lorsqu'elles réalisent des ventes sur les plate-formes Vinted et Depop.",
     status: 1,
-    url: "",
   },
   {
     title: "Pick My Fripe",
     year: "2020",
-    text: " possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea? possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "Un projet de prise en charge de la vente des vêtements de seconde-main pour les particuliers. Ces derniers remettent leurs vêtements à un Picker qui (sous un statut auto-entrepreneur) se charge des ventes, les profits étant ensuite partagés.",
     status: 2,
-    url: "",
   },
   {
     title: "Hokilo Marketplace",
     year: "2020",
-    text: " possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea? possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "Une marketplace spécialisées pour les boutiques professionnelles de vêtements de seconde-main, notamment dotées de fonctionnalités avancées pour celles-ci telles que la possibilité de vendre aux enchères ou automatiser les tâches répétitives.",
     status: 2,
-    url: "",
   },
 ];
 
@@ -59,9 +56,9 @@ const Projects = () => {
             société et le climat.
           </h2>
           <p className='mb-14 max-w-2xl text-lg font-light'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
-            reprehenderit dolorem animi, doloremque vero, eaque eum officiis non
-            blanditiis molestias minima beatae? Commodi, corporis placeat!
+            Nous avons travaillé ensemble avec des amis proches sur des projets
+            en accord avec nos valeurs et principes. Entreprendre est à nos yeux
+            la meilleure manière de changer le monde.
           </p>
         </div>
         <div className='w-full flex flex-col text-left'>
@@ -81,6 +78,13 @@ const Projects = () => {
                 </div>
               </div>
               <div className='mt-12 sm:mt-0'>{item.text}</div>
+              <p>
+                {item.url ? (
+                  <div className='inline-block mt-6 text-gray-400 hover:underline hover:text-blue-400'>
+                    <a href='https://wcs-weather.netlify.app'>{item.url}</a>
+                  </div>
+                ) : null}
+              </p>
             </div>
           ))}
         </div>
