@@ -1,4 +1,5 @@
 import React from "react";
+import { FadeIn } from "../../Animations/FadeIn";
 import SectionVcenterNoP from "../Containers/SectionVcenterNoP";
 
 const projects = [
@@ -50,38 +51,40 @@ function setStatusName(index) {
 const Projects = () => {
   return (
     <SectionVcenterNoP>
-      <div className='text-left'>
-        <h3 className='text-2xl font-light'>Projets</h3>
-        <h2 className='my-4 tracking-tight text-4xl md:text-5xl lg:text-6xl font-bold'>
-          Des projets engagés pour <br className='hidden sm:block' /> la société
-          et le climat.
-        </h2>
-        <p className='mb-14 max-w-2xl text-lg font-light'>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
-          reprehenderit dolorem animi, doloremque vero, eaque eum officiis non
-          blanditiis molestias minima beatae? Commodi, corporis placeat!
-        </p>
-      </div>
-      <div className='w-full flex flex-col text-left'>
-        {projects.map((item, i) => (
-          <div
-            key={i}
-            className='grid grid-cols-1 sm:grid-cols-2 py-20 justify-start border-b border-gray-600'>
-            <div>
-              <p className='text-base font-light mb-4'>{item.year}</p>
-              <h3 className='text-3xl font-bold tracking-tight mb-6'>
-                {item.title}
-              </h3>
-              <div className='flex flex-row justify-start'>
-                <p className={setStatusClass(item.status)}>
-                  {setStatusName(item.status)}
-                </p>
+      <FadeIn>
+        <div className='text-left'>
+          <h3 className='text-2xl font-light'>Projets</h3>
+          <h2 className='my-4 tracking-tight text-4xl md:text-5xl lg:text-6xl font-bold'>
+            Des projets engagés pour <br className='hidden sm:block' /> la
+            société et le climat.
+          </h2>
+          <p className='mb-14 max-w-2xl text-lg font-light'>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
+            reprehenderit dolorem animi, doloremque vero, eaque eum officiis non
+            blanditiis molestias minima beatae? Commodi, corporis placeat!
+          </p>
+        </div>
+        <div className='w-full flex flex-col text-left'>
+          {projects.map((item, i) => (
+            <div
+              key={i}
+              className='grid grid-cols-1 sm:grid-cols-2 py-20 justify-start border-b border-gray-600'>
+              <div>
+                <p className='text-base font-light mb-4'>{item.year}</p>
+                <h3 className='text-3xl font-bold tracking-tight mb-6'>
+                  {item.title}
+                </h3>
+                <div className='flex flex-row justify-start'>
+                  <p className={setStatusClass(item.status)}>
+                    {setStatusName(item.status)}
+                  </p>
+                </div>
               </div>
+              <div className='mt-12 sm:mt-0'>{item.text}</div>
             </div>
-            <div className='mt-12 sm:mt-0'>{item.text}</div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      </FadeIn>
     </SectionVcenterNoP>
   );
 };

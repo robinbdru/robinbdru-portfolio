@@ -1,5 +1,4 @@
 import "./App.css";
-import { FadeIn } from "./Animations/FadeIn";
 
 import NavBar from "./Components/Navigation/NavBar";
 import NavbarMobile from "./Components/Navigation/NavBarMobile";
@@ -15,55 +14,31 @@ import Tools from "./Components/Tools/Tools";
 function App() {
   return (
     <div className='App bg-darkestGray min-h-screen text-gray-200'>
-      <FadeIn>
-        <NavBar />
-      </FadeIn>
+      <NavBar />
 
-      <FadeIn>
-        <NavbarMobile />
-      </FadeIn>
+      <NavbarMobile />
 
-      <FadeIn>
-        <FixedButton />
-      </FadeIn>
+      <FixedButton />
 
-      <FadeIn>
-        <Hero />
-      </FadeIn>
+      <Hero />
 
-      <FadeIn>
-        <LogoDiv />
-      </FadeIn>
+      <LogoDiv />
 
-      <FadeIn>
-        <div id='experiences'>
-          <Experience />
-        </div>
-      </FadeIn>
+      <div id='experiences'>
+        <Experience />
+      </div>
 
-      <FadeIn>
-        <div id='projets'>
-          <Projects />
-        </div>
-      </FadeIn>
+      <div id='projets'>
+        <Projects />
+      </div>
 
-      <FadeIn>
-        <div id='projets'>
-          <Projects />
-        </div>
-      </FadeIn>
+      <div id='outils'>
+        <Tools />
+      </div>
 
-      <FadeIn>
-        <div id='tools'>
-          <Tools />
-        </div>
-      </FadeIn>
-
-      <FadeIn>
-        <div id='motivations'>
-          <Motivations />
-        </div>
-      </FadeIn>
+      <div id='motivations'>
+        <Motivations />
+      </div>
 
       <Footer />
     </div>

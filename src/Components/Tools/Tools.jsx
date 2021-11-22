@@ -1,11 +1,12 @@
 import React from "react";
+import { FadeIn } from "../../Animations/FadeIn";
 
 import SectionVcenterNoP from "../Containers/SectionVcenterNoP";
 
 const Tools = () => {
   return (
-    <div>
-      <SectionVcenterNoP>
+    <SectionVcenterNoP>
+      <FadeIn>
         <div className='text-left'>
           <h3 className='text-2xl font-light'>Outils</h3>
           <h2 className='my-4 tracking-tight text-4xl md:text-5xl lg:text-6xl font-bold'>
@@ -96,8 +97,8 @@ const Tools = () => {
             </div>
           </div>
         </div>
-      </SectionVcenterNoP>
-    </div>
+      </FadeIn>
+    </SectionVcenterNoP>
   );
 };
 

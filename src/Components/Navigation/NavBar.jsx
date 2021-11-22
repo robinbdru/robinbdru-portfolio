@@ -12,6 +12,10 @@ const menus = [
     ref: "/#projets",
   },
   {
+    title: "Outils",
+    ref: "/#outils",
+  },
+  {
     title: "Motivations",
     ref: "/#motivations",
   },

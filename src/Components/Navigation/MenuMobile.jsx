@@ -30,32 +30,46 @@ const MenuMobile = () => {
             <div className='px-4 py-4'>
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a
+                    href='/#experiences'
                     className={`${
-                      active ? "bg-gray-500 text-white" : "text-gray-700"
-                    } group flex rounded-md items-center w-full px-2 py-4 text-2xl`}>
+                      active ? "bg-darkGray text-white" : "text-gray-700"
+                    } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
                     Expériences
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a
+                    href='/#Projets'
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
-                    } group flex rounded-md items-center w-full px-2 py-4 text-2xl`}>
+                      active ? "bg-darkGray text-white" : "text-gray-700"
+                    } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
                     Projets
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <button
+                  <a
+                    href='/#Outils'
                     className={`${
-                      active ? "bg-violet-500 text-white" : "text-gray-700"
-                    } group flex rounded-md items-center w-full px-2 py-4 text-2xl`}>
+                      active ? "bg-darkGray text-white" : "text-gray-700"
+                    } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
+                    Outils
+                  </a>
+                )}
+              </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <a
+                    href='/#Motivations'
+                    className={`${
+                      active ? "bg-darkGray text-white" : "text-gray-700"
+                    } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
                     Motivations
-                  </button>
+                  </a>
                 )}
               </Menu.Item>
             </div>
@@ -65,7 +79,7 @@ const MenuMobile = () => {
                   window.open(urlForm);
                 }}
                 href={urlForm}
-                className='w-full bg-darkestGray text-white text-sm font-medium tracking-wider uppercase py-4 px-6 rounded-sm hover:bg-gray-600 transform hover:-translate-y-1 transition-all duration-100 ease-in-out'>
+                className='w-full bg-darkestGray text-white text-sm font-medium tracking-wider uppercase py-4 px-6 rounded-sm hover:opacity-90 transform hover:-translate-y-1 transition-all duration-100 ease-in-out'>
                 Me contacter
               </button>
             </div>
