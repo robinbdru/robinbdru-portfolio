@@ -1,5 +1,5 @@
 import React from "react";
-import { FadeIn } from "../../Animations/FadeIn";
+import { FadeInTwo } from "../../Animations/FadeIn";
 
 import VsLogo from "../../img/VSlogo";
 
@@ -9,21 +9,23 @@ import ReactLogo from "../../img/ReactLogo";
 
 const LogoDiv = () => {
   return (
-    <FadeIn>
-      <div className='-mt-7 opacity-60'>
-        <p className='mb-4 text-xs font-light uppercase tracking-widest'>
-          Built with
-        </p>
-        <div className='px-5 flex flex-col sm:flex-row gap-6 items-center justify-center'>
-          <div className='pb-2'>
-            <ReactLogo />
+    <div>
+      <FadeInTwo>
+        <div className='-mt-7 opacity-60'>
+          <p className='mb-4 text-xs font-light uppercase tracking-widest'>
+            Built with
+          </p>
+          <div className='px-5 flex flex-col sm:flex-row gap-6 items-center justify-center'>
+            <div className='pb-2'>
+              <ReactLogo />
+            </div>
+            <VsLogo />
+            <GitHub />
+            <TailwindLogo />
           </div>
-          <VsLogo />
-          <GitHub />
-          <TailwindLogo />
         </div>
-      </div>
-    </FadeIn>
+      </FadeInTwo>
+    </div>
   );
 };
 

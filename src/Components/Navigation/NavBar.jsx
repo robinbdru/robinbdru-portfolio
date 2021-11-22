@@ -1,5 +1,5 @@
 import React from "react";
-import { FadeIn } from "../../Animations/FadeIn";
+import { FadeInTwo } from "../../Animations/FadeIn";
 
 const urlForm = "https://bit.ly/Contacter-Robin";
 
@@ -24,7 +24,7 @@ const menus = [
 
 const NavBar = () => {
   return (
-    <FadeIn>
+    <FadeInTwo>
       <div className='z-50 bg-darkestGray fixed hidden md:flex w-full flex-row justify-between px-8 py-6 items-center mx-auto'>
         <div className='text-left text-gray-200 font-bold text-lg'>
           Robin
@@ -51,7 +51,7 @@ const NavBar = () => {
           </button>
         </div>
       </div>
-    </FadeIn>
+    </FadeInTwo>
   );
 };
 
