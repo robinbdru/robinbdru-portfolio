@@ -27,7 +27,7 @@ function FadeIn({ children }) {
   );
 }
 
-function FadeInDown({ children }) {
+function FadeInTwo({ children }) {
   const controls = useAnimation();
   const [ref, inView] = useInView({ threshold: 0 });
 
@@ -44,12 +44,12 @@ function FadeInDown({ children }) {
       initial='hidden'
       transition={{ duration: 0.4 }}
       variants={{
-        hidden: { opacity: 0, y: "6px" },
-        visible: { opacity: 1, y: "0px" },
+        hidden: { opacity: 0 },
+        visible: { opacity: 1 },
       }}>
       {children}
     </motion.div>
   );
 }
 
-export { FadeIn, FadeInDown };
+export { FadeIn, FadeInTwo };
