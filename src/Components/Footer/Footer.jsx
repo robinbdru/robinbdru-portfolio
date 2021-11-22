@@ -5,15 +5,15 @@ const urlForm = "https://bit.ly/Contacter-Robin";
 const menus = [
   {
     title: "Expériences",
-    ref: "#",
+    ref: "/#experiences",
   },
   {
     title: "Projets",
-    ref: "#",
+    ref: "/#projets",
   },
   {
     title: "Motivations",
-    ref: "#",
+    ref: "/#motivations",
   },
 ];
 
@@ -46,17 +46,17 @@ const Footer = () => {
               window.open(urlForm);
             }}
             href={urlForm}
-            className='hidden sm:block bg-gray-200 text-gray-800 text-sm font-semibold tracking-wider uppercase py-4 px-6 rounded-sm hover:bg-gray-100 transform hover:-translate-y-1 transition-all duration-100 ease-in-out'>
+            className='hidden sm:block bg-gray-200 text-gray-800 text-sm font-semibold tracking-wider uppercase md:ml-8 py-4 px-6 rounded-sm hover:bg-gray-100 transform hover:-translate-y-1 transition-all duration-100 ease-in-out'>
             Me contacter
           </button>
         </div>
       </div>
       <div className='flex flex-row justify-center md:justify-start text-center md:text-left text-xs font-light text-gray-500'>
-        <a href='website.com'>
-          <p className='inline-block mt-4 mr-3'>
-            RobinBeaudru© - All right reserved. 2021.
-          </p>
-          <p className='inline-block mt-2 mb-2'>
+        <p className='inline-block mt-4 mr-3'>
+          RobinBeaudru© - All right reserved. 2021.
+        </p>
+        <a className='mt-4' href='website.com'>
+          <p className='inline-block mb-2 hover:underline'>
             Mentions légales et confidentialité
           </p>
         </a>

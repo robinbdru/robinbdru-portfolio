@@ -21,7 +21,7 @@ const experiences = [
 
 const Experience = () => {
   return (
-    <SectionVcenterNoP>
+    <SectionVcenterNoP id='experiences'>
       <div className='text-left'>
         <h3 className='text-2xl font-light'>Expériences</h3>
         <h2 className='my-4 tracking-tight text-4xl md:text-5xl lg:text-6xl font-bold'>

@@ -9,6 +9,7 @@ import Experience from "./Components/Experiences/Experience";
 import Projects from "./Components/Projects/Projects";
 import Motivations from "./Components/Motivations/Motivations";
 import Footer from "./Components/Footer/Footer";
+import Tools from "./Components/Tools/Tools";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Experience />
 
       <Projects />
+
+      <Tools />
 
       <Motivations />
 

@@ -5,15 +5,15 @@ const urlForm = "https://bit.ly/Contacter-Robin";
 const menus = [
   {
     title: "Expériences",
-    ref: "#",
+    ref: "/#experiences",
   },
   {
     title: "Projets",
-    ref: "#",
+    ref: "/#projets",
   },
   {
     title: "Motivations",
-    ref: "#",
+    ref: "/#motivations",
   },
 ];
 
