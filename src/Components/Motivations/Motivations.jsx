@@ -5,7 +5,7 @@ import BottleImage from "../../img/nariman-mesharrafa-7VSQt-obpso-unsplash.jpg";
 const Motivations = () => {
   return (
     <SectionVcenterNoP>
-      <div id='#motivations' className='text-left'>
+      <div className='text-left'>
         <h3 className='text-2xl font-light'>Motivations</h3>
         <h2 className='my-4 tracking-tight text-4xl md:text-5xl lg:text-6xl font-bold'>
           On ne peut coder une autre planète mais...

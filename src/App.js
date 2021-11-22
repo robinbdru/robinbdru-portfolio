@@ -22,13 +22,21 @@ function App() {
       <Hero />
       <LogoDiv />
 
-      <Experience />
+      <div id='experiences'>
+        <Experience />
+      </div>
 
-      <Projects />
+      <div id='projets'>
+        <Projects />
+      </div>
 
-      <Tools />
+      <div id='tools'>
+        <Tools />
+      </div>
 
-      <Motivations />
+      <div id='motivations'>
+        <Motivations />
+      </div>
 
       <Footer />
     </div>
