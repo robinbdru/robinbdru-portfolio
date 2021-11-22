@@ -39,7 +39,7 @@ const Experience = () => {
           {experiences.map((item, i) => (
             <div
               key={i}
-              className='group flex flex-col mt-7 py-20 px-10 justify-end rounded-sm border transform border-gray-100 hover:bg-gray-200 hover:rounded-2xl  text-gray-500 hover:text-gray-900 h-auto hover:-translate-y-5 transition-all duration-300 ease-out'>
+              className='group flex flex-col py-20 px-10 justify-end rounded-sm border transform border-gray-100 hover:bg-gray-200 hover:rounded-2xl  text-gray-500 hover:text-gray-900 h-auto hover:-translate-y-5 transition-all duration-300 ease-out'>
               <p className='mb-3 font-light text-xl text-left'>
                 {item.promotion}
               </p>
