@@ -59,7 +59,9 @@ const Footer = () => {
         <p className='inline-block mt-4 mr-3'>
           RobinBeaudru© - All right reserved. 2021.
         </p>
-        <a className='mt-4' href='website.com'>
+        <a
+          className='mt-4'
+          href='https://bronze-billboard-f0a.notion.site/RobinBeaudru-legal-f25465487a4441e8981e825eb8eba0cb'>
           <p className='inline-block mb-2 hover:underline'>
             Mentions légales et confidentialité
           </p>
