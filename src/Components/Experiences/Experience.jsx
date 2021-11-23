@@ -6,17 +6,17 @@ const experiences = [
   {
     title: "Wild Code School",
     promotion: "2021 - Nantes",
-    text: " possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "La W.C.S. est une école de développement, je participe au batch fall 2021, promotion développement web & mobile JS. L'école recense 20 campus partout en Europe.",
   },
   {
     title: "1Kubator",
     promotion: "2020 - Nantes",
-    text: " possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "Je suis porteur de projet au sein de 1K, un incubateur-investisseur. Cette société accompagne et finance des projets startups en phase seed.",
   },
   {
     title: "Maia Mater",
     promotion: "2019 - Nantes",
-    text: " possimus quis! Nam sequi, dolor dicta, unde repellendus nihil est autem eveniet corrupti voluptas inventore aliquam ea?",
+    text: "Maia Mater est un programme destiné aux primo-entrepreneurs•es. Il s'agissait en 2019 d'un accompgnement 24/24 & 7/7 de 3 mois encadré par La Cantine du Numérique.",
   },
 ];
 
@@ -30,9 +30,9 @@ const Experience = () => {
             Des expériences complémentaires <br /> sur le web.
           </h2>
           <p className='mb-14 max-w-2xl text-lg font-light'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam,
-            reprehenderit dolorem animi, doloremque vero, eaque eum officiis non
-            blanditiis molestias minima beatae? Commodi, corporis placeat!
+            J'ai eu le chance de participer à différents programmes et
+            organisations dans la ville de Nantes. J'y ai rencontré des
+            personnes inspirantes, diverses, douées.
           </p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-left'>
