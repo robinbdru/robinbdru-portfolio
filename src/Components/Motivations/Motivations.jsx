@@ -31,9 +31,12 @@ const Motivations = () => {
             <br /> <br />
             Alors malgré ce constat (navrant, n'est-ce pas), je pense
             sincérement que l'informatique, la programmation, peuvent participer
-            à la conception de modes de vie plus soutenables. Il est cependant
-            évident que nos habitudes de vie et de consommation occidentales
-            seront réduites, par 2, par 5 (ou même 10 ?).
+            à la conception de modes de vie plus soutenables.
+            <br /> <br />
+            Il est cependant évident que nos habitudes de vie et de consommation
+            seront réduites, par 2, par 5 (ou même 10 ?). L'impact de tous les
+            êtres humains en terme d'énrgie et autres matières premières est
+            bien entendu très inégale selon les régions du monde.
             <br /> <br />
             Ces enjeux me motivent et apprendre la programmation est pour moi
             l'opportunité de co-créer des solutions satisfaisantes.
