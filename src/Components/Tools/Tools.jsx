@@ -62,9 +62,9 @@ const Tools = () => {
               <div className='h-px my-8 bg-gray-500' />
 
               <p className='text-base leading-normal'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
-                beatae aspernatur quas animi architecto dignissimos optio nulla
-                consequuntur saepe impedit?
+                Bubble est pionnier et leader du côté back-end no-code et
+                Webflow leader côté front. J'ai eu l'occasion de travailler sur
+                les deux, un projet est en ligne aujourd'hui (Webflow).
               </p>
             </div>
             <div className='col-span-2 group flex flex-col py-20 px-10 justify-end rounded-sm border transform border-gray-100 hover:bg-gray-200 hover:rounded-2xl text-gray-500 hover:text-gray-900 h-auto hover:-translate-y-2 transition-all duration-300 ease-out'>
@@ -77,9 +77,9 @@ const Tools = () => {
               <div className='h-px my-8 bg-gray-500' />
 
               <p className='text-base leading-normal'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
-                beatae aspernatur quas animi architecto dignissimos optio nulla
-                consequuntur saepe impedit?
+                Ces deux outils permettent d'intégrer d'autres ensemble, comme
+                Webflow et Airtable. Integromat permet également d'insérer du
+                code.
               </p>
             </div>
             <div className='col-span-2 group flex flex-col py-20 px-10 justify-end rounded-sm border transform border-gray-100 hover:bg-gray-200 hover:rounded-2xl text-gray-500 hover:text-gray-900 h-auto hover:-translate-y-2 transition-all duration-300 ease-out'>
@@ -92,9 +92,9 @@ const Tools = () => {
               <div className='h-px my-8 bg-gray-500' />
 
               <p className='text-base leading-normal'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
-                beatae aspernatur quas animi architecto dignissimos optio nulla
-                consequuntur saepe impedit?
+                Uilisés comme base de donnée no-code et/ou CRM, Airtable reste
+                mon outils préféré car très complet, de nombreuses features sont
+                incluses comme l'automatisation.
               </p>
             </div>
           </div>

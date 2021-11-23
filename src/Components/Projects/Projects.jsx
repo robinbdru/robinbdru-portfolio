@@ -11,9 +11,9 @@ const projects = [
     url: "https://wcs-weather.netlify.app/",
   },
   {
-    title: "Fripe Stories",
+    title: "oto closet",
     year: "2021",
-    text: "Side project à l'étude. Fripe Stories permet aux boutiques professionnelles de vêtements de seconde-main d'automatiser une partie de leur social marketing lorsqu'elles réalisent des ventes sur les plate-formes Vinted et Depop.",
+    text: "Side project à l'étude. oto closet permet aux boutiques professionnelles de vêtements de seconde-main d'automatiser les tâches répétitives sur les plate-formes Vinted et Depop, et donc gagner du temps.",
     status: 1,
   },
   {
