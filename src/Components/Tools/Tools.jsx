@@ -15,7 +15,7 @@ const Tools = () => {
           <p className='mb-14 max-w-2xl text-lg font-light'>
             La fusion des outils Code & No-Code permet de créer et déployer plus
             rapidement que jamais. J'ai déjà réalisé des M.V.P., boutiques
-            e-commerce et landing page en no-code, le code pur vient palier aux
+            e-commerce et landing page en no-code. Le code pur vient palier aux
             limites (parfois très rapidement atteintes).
           </p>
         </div>
@@ -49,7 +49,7 @@ const Tools = () => {
               <p className='text-base leading-normal'>
                 Node.js et sa sur-couche Express forment le deuxième pilier de
                 la formation de la W.C.S., nous avons rédigé nos premiers
-                scripts avec eux il y a quelques semaines.
+                scripts avec cet outils il y a quelques semaines.
               </p>
             </div>
             <div className='col-span-2 group flex flex-col py-20 px-10 justify-end rounded-sm border transform border-gray-100 hover:bg-gray-200 hover:rounded-2xl text-gray-500 hover:text-gray-900 h-auto hover:-translate-y-2 transition-all duration-300 ease-out'>
@@ -77,9 +77,9 @@ const Tools = () => {
               <div className='h-px my-8 bg-gray-500' />
 
               <p className='text-base leading-normal'>
-                Ces deux outils permettent d'intégrer d'autres ensemble, comme
-                Webflow et Airtable. Integromat permet également d'insérer du
-                code.
+                Ces deux outils permettent d'en intégrer d'autres ensembles,
+                comme Webflow et Airtable. Integromat permet également d'insérer
+                du code.
               </p>
             </div>
             <div className='col-span-2 group flex flex-col py-20 px-10 justify-end rounded-sm border transform border-gray-100 hover:bg-gray-200 hover:rounded-2xl text-gray-500 hover:text-gray-900 h-auto hover:-translate-y-2 transition-all duration-300 ease-out'>

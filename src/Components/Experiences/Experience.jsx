@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Wild Code School",
     promotion: "2021 - Nantes",
-    text: "La W.C.S. est une école de développement, je participe au batch fall 2021, promotion développement web & mobile JS. L'école recense 20 campus partout en Europe.",
+    text: "La W.C.S. est une école de développement. Je participe au batch fall 2021, promotion développement web & mobile JS. L'école recense 20 campus partout en Europe.",
   },
   {
     title: "1Kubator",
@@ -30,9 +30,9 @@ const Experience = () => {
             Des expériences complémentaires <br /> sur le web.
           </h2>
           <p className='mb-14 max-w-2xl text-lg font-light'>
-            J'ai eu le chance de participer à différents programmes et
+            J'ai eu la chance de participer à différents programmes et
             organisations dans la ville de Nantes. J'y ai rencontré des
-            personnes inspirantes, diverses, douées.
+            personnes inspirantes, diverses et douées.
           </p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-4 text-left'>

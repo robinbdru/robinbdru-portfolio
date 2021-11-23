@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Hokilo Marketplace",
     year: "2020",
-    text: "Une marketplace spécialisées pour les boutiques professionnelles de vêtements de seconde-main, notamment dotées de fonctionnalités avancées pour celles-ci telles que la possibilité de vendre aux enchères ou automatiser les tâches répétitives.",
+    text: "Une marketplace spécialisée pour les boutiques professionnelles de vêtements de seconde-main, notamment dotées de fonctionnalités avancées pour celles-ci telles que la possibilité de vendre aux enchères ou automatiser les tâches répétitives.",
     status: 2,
   },
 ];
