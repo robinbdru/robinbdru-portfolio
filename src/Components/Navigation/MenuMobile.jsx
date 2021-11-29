@@ -42,7 +42,7 @@ const MenuMobile = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href='/#Projets'
+                    href='/#projets'
                     className={`${
                       active ? "bg-darkGray text-white" : "text-gray-700"
                     } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
@@ -53,7 +53,7 @@ const MenuMobile = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href='/#Outils'
+                    href='/#outils'
                     className={`${
                       active ? "bg-darkGray text-white" : "text-gray-700"
                     } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
@@ -64,7 +64,7 @@ const MenuMobile = () => {
               <Menu.Item>
                 {({ active }) => (
                   <a
-                    href='/#Motivations'
+                    href='/#motivations'
                     className={`${
                       active ? "bg-darkGray text-white" : "text-gray-700"
                     } group flex rounded-sm items-center w-full px-5 py-4 text-2xl`}>
