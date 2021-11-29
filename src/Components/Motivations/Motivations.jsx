@@ -17,7 +17,7 @@ const Motivations = () => {
           <div className='mr-6 mb-14 md:mb-0 md:mr-20 max-w-5xl text-lg text-left  font-light'>
             Les rapports (notamment du G.I.E.C.) sont formels, nous ne
             parviendrons par à contenir le réchauffement du climat causé par le
-            déréglement climatique en deça de 2°. C'est sur ce scénario (et à
+            dérèglement climatique en deça de 2°. C'est sur ce scénario (et à
             minima) qu'il faut tabler.
             <br /> <br />
             Ces 2° malheureux degrés rendront bientôt impossible une des plus
